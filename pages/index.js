@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import home_image from "../public/1.webp";
 
 const App = () => {
   return (
