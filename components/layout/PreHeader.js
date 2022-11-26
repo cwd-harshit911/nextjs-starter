@@ -1,7 +1,7 @@
 const PreHeader = () => {
   return (
     <div className="preHeader">
-      <p>Happy Shopping – 30% off & free shipping. Auto Applied.</p>
+      <p>Pre header</p>
     </div>
   );
 };
