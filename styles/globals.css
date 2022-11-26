@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+:root {
+  --light_grey: #757e88;
+  --sec_font: #5d646c;
+  --sec_font_: #222427;
+  --blue: #278be3;
+  --red: #d44848;
+  --theme-sheet-width-xl: 1140px;
+  --theme-sheet-width-lg: 940px;
+  --theme-sheet-width-md: 720px;
+  --theme-sheet-width-sm: 540px;
+  --theme-sheet-width-xs: 340px;
+}
